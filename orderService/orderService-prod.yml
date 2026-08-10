@@ -1,0 +1,9 @@
+# orderService config for the PROD profile
+app:
+  environment: "PRODUCTION"
+  db-url: "jdbc:mysql://prod-db.internal:3306/orders_prod"
+  feature-x-enabled: false
+  max-connections: 100
+logging:
+  level:
+    com.cc.orderService: WARN

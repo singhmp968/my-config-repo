@@ -1,0 +1,3 @@
+# orderService-specific configuration (filename must match spring.application.name)
+app:
+  message: "orderService config from Config Server (orderService/orderService.yml)"

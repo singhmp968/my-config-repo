@@ -1,0 +1,9 @@
+# orderService config for the QA profile
+app:
+  environment: "QA"
+  db-url: "jdbc:mysql://qa-db.internal:3306/orders_qa"
+  feature-x-enabled: true
+  max-connections: 20
+logging:
+  level:
+    com.cc.orderService: INFO

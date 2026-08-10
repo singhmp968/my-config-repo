@@ -1,0 +1,3 @@
+# Shared configuration served to ALL services by the Config Server
+app:
+  common: "Shared config from Config Server (global/application.yml)"

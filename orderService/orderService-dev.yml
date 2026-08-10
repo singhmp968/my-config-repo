@@ -1,0 +1,9 @@
+# orderService config for the DEV profile
+app:
+  environment: "DEVELOPMENT"
+  db-url: "jdbc:mysql://localhost:3306/orders_dev"
+  feature-x-enabled: true
+  max-connections: 5
+logging:
+  level:
+    com.cc.orderService: DEBUG
