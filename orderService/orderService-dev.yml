@@ -7,3 +7,5 @@ app:
 logging:
   level:
     com.cc.orderService: DEBUG
+custom:
+  message: hello fromorder dev

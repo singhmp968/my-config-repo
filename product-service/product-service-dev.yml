@@ -1,0 +1,9 @@
+# product-service config for the DEV profile
+app:
+  environment: "DEVELOPMENT"
+  db-url: "jdbc:mysql://localhost:3306/products_dev"
+  cache-enabled: false
+  max-connections: 5
+logging:
+  level:
+    com.cc.productService: DEBUG

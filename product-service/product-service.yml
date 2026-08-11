@@ -1,0 +1,3 @@
+# product-service-specific configuration (filename matches spring.application.name: product-service)
+app:
+  message: "product-service config from Config Server (product-service/product-service.yml)"

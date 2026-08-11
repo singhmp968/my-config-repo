@@ -1,0 +1,9 @@
+# product-service config for the PROD profile
+app:
+  environment: "PRODUCTION"
+  db-url: "jdbc:mysql://prod-db.internal:3306/products_prod"
+  cache-enabled: true
+  max-connections: 100
+logging:
+  level:
+    com.cc.productService: WARN
