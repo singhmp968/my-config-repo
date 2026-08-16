@@ -8,4 +8,4 @@ logging:
   level:
     com.cc.orderService: DEBUG
 custom:
-  message: hello AFTER live refresh (no restart!)
+  message: hello AFTER live refresh (no restart!)1234
